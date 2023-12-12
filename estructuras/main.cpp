@@ -29,3 +29,7 @@ int main() {
     estudiante2->edad = 22;
     estudiante2->promedio = 9.8;
     imprimirEstudiante(*estudiante2);
+
+    // d. Punteros y estructuras
+    Estudiante* punteroEst = &estudiante1;
+    imprimirEstudiante(*punteroEst);
