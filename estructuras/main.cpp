@@ -22,3 +22,10 @@ int main() {
 
     // b. Instanciación de estructuras
     imprimirEstudiante(estudiante1);
+
+    // c. Instanciación con el operador malloc
+    Estudiante* estudiante2 = (Estudiante*)malloc(sizeof(Estudiante));
+    strcpy(estudiante2->nombre, "Ana");
+    estudiante2->edad = 22;
+    estudiante2->promedio = 9.8;
+    imprimirEstudiante(*estudiante2);
