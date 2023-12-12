@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring> // Para usar strcpy
 
 typedef struct {
     char nombre[50];
@@ -11,8 +10,6 @@ Estudiante copiarEstudiante(const Estudiante& est) {
     Estudiante nuevoEst{est}; // Constructor de copia para realizar la copia
     return nuevoEst;
 }
-
-Estudiante estudiante3{"Pedro", 25, 9.7}; // Inicialización directa
 
 void imprimirEstudiante(const Estudiante& est) {
     std::cout << "Nombre: " << est.nombre << ", Edad: " << est.edad << ", Promedio: " << est.promedio << std::endl;
