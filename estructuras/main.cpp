@@ -15,7 +15,7 @@ void imprimirEstudiante(const Estudiante& estudiante) {
 
 int main() {
     // a. Constitución de una estructura
-    Estudiante estudiante1;
+    Estudiante estudiante1{};
     strcpy(estudiante1.nombre, "Juan");
     estudiante1.edad = 20;
     estudiante1.promedio = 9.5;
@@ -24,14 +24,14 @@ int main() {
     imprimirEstudiante(estudiante1);
 
     // c. Instanciación con el operador malloc
-    Estudiante* estudiante2 = (Estudiante*)malloc(sizeof(Estudiante));
+    auto estudiante2 = static_cast<Estudiante*>(malloc(sizeof(Estudiante)));
     strcpy(estudiante2->nombre, "Ana");
     estudiante2->edad = 22;
     estudiante2->promedio = 9.8;
     imprimirEstudiante(*estudiante2);
 
     // d. Punteros y estructuras
-    Estudiante* punteroEst = &estudiante1;
+    auto punteroEst = &estudiante1;
     imprimirEstudiante(*punteroEst);
 
     // e. Organización de la programación
