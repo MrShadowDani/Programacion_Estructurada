@@ -19,3 +19,6 @@ int main() {
     strcpy(estudiante1.nombre, "Juan");
     estudiante1.edad = 20;
     estudiante1.promedio = 9.5;
+
+    // b. Instanciación de estructuras
+    imprimirEstudiante(estudiante1);
