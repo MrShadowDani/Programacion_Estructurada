@@ -1,0 +1,3 @@
+C:/Users/danij/OneDrive/Documentos/GitHub/Programacion_Estructurada/estructuras/cmake-build-debug/CMakeFiles/estructuras.dir
+C:/Users/danij/OneDrive/Documentos/GitHub/Programacion_Estructurada/estructuras/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/danij/OneDrive/Documentos/GitHub/Programacion_Estructurada/estructuras/cmake-build-debug/CMakeFiles/rebuild_cache.dir
